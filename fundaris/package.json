@@ -10,6 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "engines": {
+    "node": ">=16"
+  },
   "dependencies": {
     "antd": "^5.22.4",
     "bootstrap": "^5.3.3",
