@@ -20,12 +20,6 @@ function CustomerPage() {
                 alt="customer"
               />
               <Card.Body className="c-card-body">
-                <Card.Title className="customer-title">
-                  Anh N. T. Nhã
-                </Card.Title>
-                <Card.Text className="customer-text">
-                  Đà Nẵng, Giải 2 chỉ vàng
-                </Card.Text>
                 <Card.Text className="des">
                   “Dùng trà nhộng trùng thảo Fungaris bà thấy ăn uống dễ dàng
                   hơn, giấc ngủ sâu hơn và không còn hay mệt mỏi’
