@@ -1,0 +1,31 @@
+.card {
+  border: none;
+  height: 627px;
+  background: transparent;
+}
+
+.card-body {
+  justify-items: center;
+}
+
+.button-card {
+  display: block;
+  width: 100%;
+  background-color: #fe5f1a;
+  color: white;
+  border: none;
+
+  &:hover {
+    opacity: 80%;
+    background-color: #fe5f1a;
+  }
+
+  &:active {
+    opacity: 90%;
+    background-color: #fe5f1a !important;
+  }
+}
+
+.title {
+  text-align: center;
+}
