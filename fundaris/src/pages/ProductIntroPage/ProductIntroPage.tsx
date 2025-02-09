@@ -8,7 +8,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-// Nút Previous
 const PrevArrow: React.FC<CustomArrowProps> = ({ className, style, onClick }) => {
   return (
     <div
@@ -21,7 +20,6 @@ const PrevArrow: React.FC<CustomArrowProps> = ({ className, style, onClick }) =>
   );
 };
 
-// Nút Next
 const NextArrow: React.FC<CustomArrowProps> = ({ className, style, onClick }) => {
   return (
     <div
