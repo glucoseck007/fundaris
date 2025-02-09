@@ -1,19 +1,71 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "../ProductIntroPage/product_intro_page.scss";
 import CustomCard from "../../component/CustomCard/CustomCard";
 import imagePaths from "../../constants/path";
+import { Link } from "react-router-dom";
+import Slider, { CustomArrowProps } from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
-function ProductIntroPage() {
+// Nút Previous
+const PrevArrow: React.FC<CustomArrowProps> = ({ className, style, onClick }) => {
+  return (
+    <div
+      className={`${className} custom-prev-arrow`}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    >
+     <FaArrowLeft  />
+    </div>
+  );
+};
+
+// Nút Next
+const NextArrow: React.FC<CustomArrowProps> = ({ className, style, onClick }) => {
+  return (
+    <div
+      className={`${className} custom-next-arrow`}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    >
+      <FaArrowRight />
+    </div>
+  );
+};
+
+const ProductIntroPage: React.FC = () => {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
+
   return (
     <Container className="product-intro-container">
-      <Row>
-        <Col>
-          <h2>Danh mục sản phẩm</h2>
-        </Col>
-      </Row>
-      <Container fluid="xs">
-        <Row>
-          <Col className="column">
+      <h2 className="text-center">Danh mục sản phẩm</h2>
+      <Slider {...settings}>
+        <div>
+          <Link to={"/product1"}>
             <CustomCard
               image={imagePaths.product1}
               title="NHỘNG TRÙNG THẢO KHÔ (Lọ 20g)"
@@ -21,20 +73,45 @@ function ProductIntroPage() {
               showButton={true}
               price="499000"
             />
-          </Col>
-          <Col className="column">
+          </Link>
+        </div>
+        <div>
+          <Link to={"/product1"}>
             <CustomCard
-              image={imagePaths.product2}
-              title="TRÀ NHỘNG TRÙNG THẢO (Hộp 20 gói)"
-              subtitle="249.000đ"
+              image={imagePaths.product1}
+              title="NHỘNG TRÙNG THẢO KHÔ (Lọ 20g)"
+              subtitle="499.000đ"
               showButton={true}
               price="499000"
             />
-          </Col>
-        </Row>
-      </Container>
+          </Link>
+        </div>
+        <div>
+          <Link to={"/product1"}>
+            <CustomCard
+              image={imagePaths.product1}
+              title="NHỘNG TRÙNG THẢO KHÔ (Lọ 20g)"
+              subtitle="499.000đ"
+              showButton={true}
+              price="499000"
+            />
+          </Link>
+        </div>
+        <div>
+          <Link to={"/product2"}>
+            <CustomCard
+              image={imagePaths.product2}
+              title="TRÀ NHỘNG TRÙNG THẢO(Hộp 20 gói)"
+              subtitle="249.000đ"
+              showButton={true}
+              price="249000"
+            />
+          </Link>
+        </div>
+        {/* Thêm sản phẩm khác nếu cần */}
+      </Slider>
     </Container>
   );
-}
+};
 
 export default ProductIntroPage;

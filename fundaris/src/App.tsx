@@ -3,6 +3,7 @@ import "../src/styles/global.scss";
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import ProductIntroPage from "./pages/ProductIntroPage/ProductIntroPage";
+import ProductPage2 from "./pages/ProductPage2/product_page2";
 import Header from "./component/Header/Header";
 import VisionPage from "./pages/VisionPage/VisonPage";
 import StoryPage from "./pages/StoryPage/StoryPage";
@@ -24,7 +25,8 @@ function App() {
           <Route path="productIntro" element={<ProductIntroPage />}></Route>
           <Route path="vision" element={<VisionPage />}></Route>
           <Route path="story" element={<StoryPage />}></Route>
-          <Route path="info" element={<ProductPage />}></Route>
+          <Route path="/product1" element={<ProductPage />}></Route>
+          <Route path="/product2" element={<ProductPage2 />}></Route>
         </Routes>
         <Footer />
       </CartProvider>
