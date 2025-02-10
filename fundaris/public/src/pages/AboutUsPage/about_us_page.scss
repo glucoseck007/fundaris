@@ -1,0 +1,29 @@
+.about-us-container {
+  margin-top: 280px;
+}
+
+.text-overlay-1 {
+  cursor: pointer;
+  position: absolute;
+  top: 388%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.text-overlay-2 {
+  cursor: pointer;
+  position: absolute;
+  top: 388%;
+  right: 13%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: large;
+}
