@@ -10,60 +10,49 @@ function StoryPage() {
         <img className="logo" src={imagePaths.logo} alt="logo" />
       </Row>
       <h2 className="title" style={{ marginBottom: 27 }}>
-        Hành trình ra đời Fungaris – Kết tinh từ tình yêu thương
+        Hành trình ra đời Candle Tales – Thắp sáng những câu chuyện của tâm hồn
       </h2>
       <Row className="justify-content-md-center">
         <Col md={8}>
           <p className="story-content">
-            Tất cả bắt đầu từ khi anh phải chuyển ra Hà Nội làm việc, xa bố mẹ
-            và quê nhà. Mỗi ngày, anh đều đau đáu nghĩ về sức khỏe của bố mẹ,
-            nhất là sau khi bố anh mắc bệnh lâu ngày, sức khỏe suy yếu rõ rệt vì
-            chế độ dinh dưỡng không đảm bảo và ảnh hưởng tinh thần từ dịch
-            COVID-19.
+            Tất cả bắt đầu từ những ngày đông lạnh giá khi cô sống một mình
+            trong căn hộ nhỏ giữa lòng thành phố tấp nập. Xa gia đình, xa quê
+            hương, những buổi tối dài trở nên trống vắng và lạnh lẽo. Cô nhớ da
+            diết không gian ấm áp của ngôi nhà nhỏ nơi có mùi thơm quen thuộc từ
+            những cây nến mẹ hay thắp mỗi tối—hương cam dịu nhẹ, chút quế nồng
+            nàn, và thoang thoảng mùi vani ấm áp. Những mùi hương ấy không chỉ
+            là ký ức mà còn là sự an ủi, giúp cô cảm thấy được bao bọc trong
+            tình yêu thương dù ở bất cứ đâu.
             <br />
             <br />
-            Trước đây, bố anh từng là người đàn ông khỏe mạnh nhưng bệnh đã làm
-            ông trở nên gầy và yếu hơn. Tiểu đường khiến hạn chế các loại thức
-            ăn. Những lần hiếm hoi về quê, hình ảnh bố mệt và tiều tụy khiến anh
-            buồn bã và lo lắng.
+            Nhận ra sức mạnh kỳ diệu của hương thơm trong việc chạm đến những
+            cảm xúc sâu thẳm nhất, cô bắt đầu tìm hiểu về nghệ thuật làm nến.
+            Không đơn thuần chỉ là thắp sáng, cô muốn mỗi cây nến đều kể một câu
+            chuyện riêng—về ký ức, về những khoảnh khắc đáng nhớ hay đơn giản là
+            cảm giác bình yên sau một ngày dài mệt mỏi. Tuy nhiên, hành trình ấy
+            không hề dễ dàng. Cô thử nghiệm hàng trăm công thức, từ sáp ong tự
+            nhiên, sáp đậu nành cho đến các loại tinh dầu thiên nhiên, để tìm ra
+            sự kết hợp hoàn hảo giữa hương thơm và sự an toàn cho sức khỏe.
             <br />
             <br />
-            Là một người con, anh không thể đứng nhìn bố mình chịu đựng như vậy.
-            Từ đó, anh bắt đầu tìm kiếm một giải pháp dinh dưỡng vừa an toàn,
-            vừa hiệu quả để cải thiện sức khỏe cho bố mình. Trong hành trình
-            này, anh phát hiện ra Đông trùng hạ thảo – loại dược liệu quý giá
-            với nhiều lợi ích vượt trội cho sức khỏe, đặc biệt phù hợp với bệnh
-            nhân tiểu đường.
+            Trong quá trình đó, cô nhận ra rằng hương thơm không chỉ làm dịu tâm
+            hồn mà còn có thể trở thành cầu nối giữa con người với những kỷ niệm
+            quý giá. Đó là lý do <b>Candle Tales</b> ra đời—một thương hiệu nến
+            thơm không chỉ để chiếu sáng không gian, mà còn thắp lên những câu
+            chuyện đầy cảm xúc. Mỗi sản phẩm đều được tạo ra bằng tình yêu và sự
+            tỉ mỉ, từ khâu lựa chọn nguyên liệu đến thiết kế bao bì mang đậm nét
+            nghệ thuật.
             <br />
             <br />
-            Tuy nhiên, vấn đề lớn nhất là giá thành của Đông trùng hạ thảo tự
-            nhiên quá đắt đỏ, lên tới hàng tỷ đồng mỗi kg, vượt xa khả năng tài
-            chính của một nhân viên bình thường. Nhưng thay vì từ bỏ, anh quyết
-            tâm tiếp tục tìm kiếm.
+            Sứ mệnh của Candle Tales không chỉ là mang lại những cây nến đẹp
+            mắt, mà còn lan tỏa sự ấm áp, yêu thương và cảm giác bình yên trong
+            từng khoảnh khắc nhỏ bé của cuộc sống. Đó là hành trình từ một cô
+            gái tìm kiếm cảm giác thân thuộc giữa thành phố xa lạ đến người sáng
+            lập thương hiệu nến thơm, với mong muốn mỗi ngọn nến sẽ là một câu
+            chuyện nhỏ, chạm đến trái tim của những người xung quanh.
             <br />
             <br />
-            May mắn khi anh tình cờ gặp được các nhà khoa học tại Viện Di truyền
-            Nông nghiệp Việt Nam. Họ giới thiệu cho anh về Cordyceps militaris,
-            một giống Nhộng trùng thảo được nuôi trồng nhân tạo với chi phí hợp
-            lý nhưng vẫn giữ nguyên giá trị dinh dưỡng. Loại militaris này không
-            chỉ giàu Cordycepin và Adenosine – hai hoạt chất quý giúp tăng cường
-            sức khỏe và cải thiện tinh thần – mà còn an toàn tuyệt đối cho người
-            bệnh tiểu đường.
-            <br />
-            <br />
-            Nhận ra tiềm năng to lớn của sản phẩm này, anh quyết định bắt tay
-            vào nghiên cứu sâu hơn và hợp tác với các chuyên gia để xây dựng
-            thương hiệu Nhộng trùng thảo của riêng mình – Fungaris. Sứ mệnh của
-            Fungaris không chỉ là mang đến các sản phẩm chất lượng cao mà còn
-            làm cho Nhộng trùng thảo trở nên dễ tiếp cận hơn với mọi người, đặc
-            biệt là những người cần cải thiện sức khỏe cho người thân.
-            <br />
-            <br />
-            Hành trình từ một người con lo lắng cho sức khỏe của bố mẹ đến người
-            sáng lập thương hiệu Fungaris chính là minh chứng cho tình yêu gia
-            đình và khát khao đóng góp cho cộng đồng. Fungaris ra đời để lan tỏa
-            giá trị chăm sóc sức khỏe bền vững, giúp mọi người sống vui, khỏe và
-            tràn đầy năng lượng.
+            <b>Candle Tales – Thắp sáng ký ức, kể câu chuyện của riêng bạn.</b>
           </p>
         </Col>
       </Row>

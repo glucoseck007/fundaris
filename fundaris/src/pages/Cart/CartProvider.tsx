@@ -5,7 +5,8 @@ interface Product {
   image: string;
   title: string;
   subtitle: string;
-  quantity?: number; // Add quantity to the product interface
+  description?: string; // Thêm dòng này
+  quantity?: number;
 }
 
 interface CartContextType {

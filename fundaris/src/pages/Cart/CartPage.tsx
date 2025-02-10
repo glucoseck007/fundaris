@@ -90,31 +90,11 @@ const CartPage: React.FC = () => {
                 <h2>{product.title}</h2>
                 <hr />
                 <div className="product-info">
-                  <p className="quantity">
-                    {product.quantity || 1} Hộp / {(product.quantity || 1) * 10}{" "}
-                    Gói | {(product.quantity || 1) * 2} g
-                  </p>
+                  <p className="quantity">{product.quantity || 1} Cốc</p>
                   <h3>{getTotalPrice()} đ</h3>
                 </div>
                 <hr />
-                <div className="product-description">
-                  <h4>Mô tả:</h4>
-                  <ul>
-                    <li>Hỗ trợ cải thiện khí huyết</li>
-                    <li>Phòng chống thiếu sắt</li>
-                    <li>Thúc đẩy quá trình sản sinh hồng cầu</li>
-                    <li>Làm tăng lượng huyết sắc tố</li>
-                  </ul>
-                </div>
-                <hr />
-                <div className="usage-instructions">
-                  <h4>Cách sử dụng:</h4>
-                  <p>
-                    Cho 1 túi trà vào 200ml nước đun sôi 5 phút, hoặc ủ từ 10-15
-                    phút trong nước nóng trên 80 độ C. Trà sau khi pha nên được
-                    sử dụng trong ngày. Có thể thêm đá nếu thích uống lạnh.
-                  </p>
-                </div>
+
                 <div className="quantity-control">
                   <button
                     className="btn-decrease"

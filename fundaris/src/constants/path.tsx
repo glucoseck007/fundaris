@@ -1,6 +1,6 @@
 const imagePaths = {
   logo: "./src/assets/images/logo.png",
-  background: "./src/assets/images/background.png",
+  background: "./src/assets/images/background.jpg",
   product1: "./src/assets/images/product1.png",
   product2: "./src/assets/images/product2.png",
   product3: "./src/assets/images/product3.png",
@@ -10,7 +10,7 @@ const imagePaths = {
   customer3: "./src/assets/images/customer3.png",
   aboutus: "./src/assets/images/aboutus.png",
   fb: "./src/assets/images/fb-icon.svg",
-  cart: "./src/assets/images/cart.jpg",
+  cart: "./src/assets/images/cart.png",
 };
 
 export default imagePaths;

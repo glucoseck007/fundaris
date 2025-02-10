@@ -26,9 +26,12 @@ function Header() {
         <Link to="story" smooth={true} duration={500} offset={-70}>
           Câu chuyện thương hiệu
         </Link>
-        <Link to="vision" smooth={true} duration={500} offset={-70}>
+        {/* <Link to="collection" smooth={true} duration={500} offset={-70}>
+          Bộ sưu tập
+        </Link> */}
+        {/* <Link to="vision" smooth={true} duration={500} offset={-70}>
           Tầm nhìn và sứ mệnh
-        </Link>
+        </Link> */}
         <Link to="info" smooth={true} duration={500} offset={-160}>
           Thông tin sản phẩm
         </Link>

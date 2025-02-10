@@ -12,6 +12,8 @@ import ProductPage from "./pages/ProductPage/product_page";
 import { CartProvider } from "./pages/Cart/CartProvider";
 import CartPage from "./pages/Cart/CartPage";
 import { ToastContainer } from "react-bootstrap";
+import ProductPage3 from "./pages/ProductPage3/ProductPage3";
+import ProductPage4 from "./pages/ProductPage4/ProductPage4";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="story" element={<StoryPage />}></Route>
           <Route path="/product1" element={<ProductPage />}></Route>
           <Route path="/product2" element={<ProductPage2 />}></Route>
+          <Route path="/product3" element={<ProductPage3 />}></Route>
+          <Route path="/product4" element={<ProductPage4 />}></Route>
         </Routes>
         <Footer />
       </CartProvider>

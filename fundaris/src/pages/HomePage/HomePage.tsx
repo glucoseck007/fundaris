@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Carousel, Col, Container, Row } from "react-bootstrap";
 import imagePaths from "../../constants/path";
 
 import "../HomePage/home_page.scss";
@@ -14,26 +14,24 @@ function HomePage() {
     <>
       <section id="header">
         <Container fluid="xs" className="home-page-container">
-          <Row className="background-row">
-            <Col>
-              <img
-                className="backgroundImage"
-                src={imagePaths.background}
-                alt="background"
-              />
-            </Col>
-          </Row>
+          <Col>
+            <img
+              className="backgroundImage"
+              src={imagePaths.background}
+              alt="background"
+            />
+          </Col>
           <section id="productIntro">
             <ProductIntroPage />
           </section>
-          <CustomerPage />
-          <AboutUsPage />
+          {/* <CustomerPage /> */}
+          {/* <AboutUsPage /> */}
           <section id="story">
             <StoryPage />
           </section>
-          <section id="vision">
+          {/* <section id="vision">
             <VisionPage />
-          </section>
+          </section> */}
           <section id="info">
             <ProductPage />
           </section>

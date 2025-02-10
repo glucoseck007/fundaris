@@ -7,7 +7,7 @@ $hoverColor: #e94235;
   z-index: 1000;
   align-items: center;
   justify-content: space-between;
-  background-color: white;
+  background-color: #f6f6f4;
   height: 70px;
   width: 100%;
 }
@@ -46,10 +46,10 @@ $hoverColor: #e94235;
 }
 
 .logo {
-  margin-left: 81px;
-  height: 70px;
+  margin-left: 20px;
+  height: 76.84px;
   width: auto;
-  padding-top: 20px;
+  // padding-top: 20px;
 
   &:hover {
     cursor: pointer;
